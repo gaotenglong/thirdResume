@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: Arial;
+    list-style: none;
+    color: #000000;
+}
+body{
+    background-color: #f4f5f6;
+}
+p{
+    text-indent: 2em;
+}
+#header #logo{
+    width: 1000px;
+    height: 60px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 60px;
+}
+#main{
+    margin: 0 auto;
+    width: 1000px;
+}
+#timeline{
+    width: 800px;
+    height: 440px;
+    overflow: hidden;
+    margin: 40px auto;
+    position: relative;
+    background: url('../images/dot.gif') 133px top repeat-y;
+}
+#dates{
+    width: 150px;
+    height: 440px;
+    overflow: hidden;
+    float: left;
+}
+#dates li{
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    font-size: 24px;
+    padding-right:20px;
+    text-align:right;
+    background: url('../images/biggerdot.png') 128px center no-repeat;
+}
+#dates a{
+    line-height: 30px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+#dates .selected{
+    font-size: 30px;
+}
+#issues{
+    width: 640px;
+    height: 440px;
+    overflow: hidden;
+    float: right;
+}
+#issues li{
+    width: 640px;
+    height: 440px;
+    padding: 0px 10px;
+}
+#issues li h1{
+    color: #ffcc00;
+    font-size: 42px;
+    height:52px;
+    line-height:52px;
+    text-shadow: #000 1px 1px 2px;
+}
+#issues li p{
+    margin: 10px;
+    line-height: 26px;
+}
+.row .td{
+    height: 20px;
+    line-height: 20px;
+    text-align: left;
+    font-family: 宋体;
+    font-size: 18px;
+    color: black;
+    margin-top: 10px;
+    padding-left: 40px;
+}
+.row .td:nth-child(5){
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.row:nth-child(2)>p{
+    line-height: 1.4;
+    margin: 5px;
+}
+.row>p{
+    line-height: 28px;
+}
