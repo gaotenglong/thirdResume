@@ -29,7 +29,7 @@ p{
     overflow: hidden;
     margin: 40px auto;
     position: relative;
-    background: url('../images/dot.gif') 133px top repeat-y;
+    background: url('../images/dot.gif') 137px top repeat-y;
 }
 #dates{
     width: 150px;
@@ -44,7 +44,7 @@ p{
     font-size: 24px;
     padding-right:20px;
     text-align:right;
-    background: url('../images/biggerdot.png') 128px center no-repeat;
+    background: url('../images/biggerdot.png') 134px center no-repeat;
 }
 #dates a{
     line-height: 30px;
