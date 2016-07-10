@@ -1,4 +1,4 @@
-*{
+﻿*{
     margin: 0px;
     padding: 0px;
     font-size: 16px;
@@ -96,13 +96,4 @@ p{
 }
 .row>p{
     line-height: 28px;
-}
-.picture img{
-    position: absolute;
-    top: 30px;
-    left: 70%;
-    height: 140px;
-    z-index: 1;
-    box-shadow: 0px 0px 10px 4px rgba(49,132,155,0.5);
-    border-radius: 8px;
 }
